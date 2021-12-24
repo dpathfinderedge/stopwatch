@@ -1,0 +1,59 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #e0e0e0;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.timer {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 50px auto;
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: transparent;
+    box-shadow: 6px -6px 8px #b4b2b2, -6px 6px 8px #f1f1f1;
+}
+
+.timer span {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 12px;
+    margin: 4px;
+    font-size: 22px;
+    text-align: center;
+    display: inline-block;
+    color: #008dcf;
+    box-shadow: 6px -6px 8px #c4c1c1, -6px 6px 8px #f1f1f1;    
+}
+
+button {
+    background: #008dcf;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    border: none;
+    border-radius: 33px;
+    cursor: pointer;
+    transition: all .3s;
+    outline: none;
+}
+
+button:active {
+    background: #333;
+    transform: translateY(4px);
+}
